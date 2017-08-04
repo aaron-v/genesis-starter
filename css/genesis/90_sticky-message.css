@@ -1,0 +1,14 @@
+.sticky.entry { 
+	background-color: #1da1f2;
+}
+
+.sticky.entry,
+.sticky.entry h1 a,
+.sticky .entry-categories a {
+	color: white;
+}
+
+.sticky.entry h1 a:hover {
+	color: black;
+}
+

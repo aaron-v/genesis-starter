@@ -1,0 +1,13 @@
+.after-entry {
+	margin-bottom: 2rem;
+	padding: 4rem 2rem;
+	text-align: center;
+}
+
+.after-entry h3 {
+	margin-top: 0;
+}
+
+.after-entry p {
+	margin-bottom: 0;
+}

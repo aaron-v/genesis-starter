@@ -1,0 +1,33 @@
+.footer-widgets .wrap {
+	display: flex;
+	flex-flow: row wrap;
+} 
+
+.footer-widgets .widget-area {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.footer-widgets-1.widget-area {
+	flex-grow: 2;
+	flex-shrink: 1;
+}
+
+.footer-widgets .widget-wrap {
+    padding: 0 1em;
+}
+
+.footer-widgets .widget-title {
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+}
+
+.site-title a,
+.entry-categories a,
+.entry-author-name,
+.entry-time,
+.widget a,
+.site-footer a {
+	display: inline-block;
+}

@@ -1,0 +1,147 @@
+.display__flex {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.display__flex--center {
+	/*align-items: center;*/
+	justify-content: center;
+}
+
+.ACF-front-page .button {
+	background-color: #ff0956;
+	border-color: transparent;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 3px;
+	color: white;
+	font-weight: 700;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.ACF-front-page .button:hover {
+	background-color: #404050;
+}
+
+/* Hero section */ 
+.ACF-front-page .hero,
+.ACF-front-page .image-left,
+.ACF-front-page .image-right,
+.ACF-front-page .contact_form {
+	background-size: cover;
+	background-position: center;
+}
+
+.ACF-front-page .hero h2 {
+	font-size: 3rem;
+	margin-top: 0;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.ACF-front-page .hero .hero_content {
+	background-color: rgba(0,0,0,0.35);
+	color: white;
+	padding: 32px 8%;
+	width: 100%;
+}
+ 
+.ACF-front-page .hero .hero_content p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 36rem; /* index card width for readability */
+}
+ 
+/* Image-Text & Text-Image sections */
+.image-text {
+	flex-direction: column;
+}
+
+.text-image {
+	flex-direction: column-reverse;
+}
+
+.image-left,
+.image-right {
+	min-height: 240px;
+}
+
+@media screen and (min-width: 36rem) {
+	.image-left,
+	.image-right {
+		min-height: 360px;
+	}
+}
+
+
+
+.text-right,
+.text-left {
+	background-color: white;
+	padding: 2rem;
+	padding-top: 0;
+	text-align: center;
+}
+ 
+@media screen and (min-width: 48rem) {
+	
+	.image-text,
+	.text-image {
+		flex-direction: row;
+	}
+
+	.text-right,
+	.text-left {
+		width: 60%;
+	}
+	
+	.image-left,
+	.image-right {
+		width: 40%;
+	}
+
+	.image-left,
+	.image-right,
+	.text-right,
+	.text-left {
+		min-height: 320px;
+	}
+}
+
+.text-right h2,
+.text-left h2 {
+	/*text-transform: capitalize;*/
+}
+
+.dark {
+	background: black;
+	color: white;
+}
+
+.ACF-front-page .footer-widgets,
+.ACF-front-page .site-footer {
+	background-color: #2d2c2a;
+}
+
+
+.ACF-front-page hr {
+	border: none;
+	height: 4px;
+	margin: 0 auto 1em;
+	width: 64px;
+}
+
+.hr-white {
+	background-color: white;
+}
+
+.hr-black {
+	background-color: black;
+}
+
+.txt-center {
+	text-align: center;
+}

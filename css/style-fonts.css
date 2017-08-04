@@ -1,0 +1,59 @@
+body {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+}
+a {
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Roboto Slab', sans-serif;
+	/*text-transform: capitalize;*/
+}
+ol {
+	padding-left: 0;
+}
+ul {
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+b, strong {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+}
+blockquote {
+	border-left: 2px solid;
+	font-family: 'Roboto Slab', sans-serif;
+	font-style: italic;
+	margin: 1em 0;
+	padding: 0 1em;
+}
+
+/* tables */
+th,
+tr.odd,
+tr.even {
+	border-bottom: 1px solid black;
+	overflow: auto;
+}
+
+td {
+	padding: 0.25em 0.5em;
+}
+
+/* bass framework */
+.caps {
+	letter-spacing: inherit;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* font-awesome */
+.footer-widgets .fa {
+	font-size: 1rem !important;
+	line-height: 1.5 !important;
+}

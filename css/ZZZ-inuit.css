@@ -1,0 +1,97 @@
+@media screen and (min-width: 1024px)
+.promo {
+    padding-bottom: 24px;
+}
+
+.promo {
+    /* padding-bottom: 0; */
+}
+.band--highlight {
+    background-color: #fff;
+}
+@media screen and (min-width: 1024px)
+.band {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.band {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.wrapper--wide {
+    max-width: 1276px;
+}
+
+@media screen and (min-width: 720px)
+.wrapper {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.layout {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -24px;
+}
+ul, ol, dd {
+    margin-left: 48px;
+    margin-left: 3rem;
+}
+@media screen and (min-width: 1024px)
+.desk-one-third {
+    width: 33.333333333%;
+}
+.layout__item {
+    display: inline-block;
+    padding-left: 24px;
+    vertical-align: top;
+    width: 100%;
+}
+@media screen and (min-width: 1024px)
+.desk-one-third {
+    width: 33.333333333%;
+}
+@media screen and (min-width: 720px)
+.lap-and-up-one-half {
+    width: 50%;
+}
+.layout__item {
+    display: inline-block;
+    padding-left: 24px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.promo__block {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.media {
+    display: block;
+}
+
+.iconic {
+    width: 64px;
+    height: 64px;
+}
+.media__img {
+    float: left;
+    margin-right: 24px;
+}
+
+.media__body, .media__body>:last-child {
+    margin-bottom: 0;
+}
+.media__body {
+    overflow: hidden;
+    display: block;
+}

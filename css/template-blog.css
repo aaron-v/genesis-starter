@@ -1,0 +1,50 @@
+.blog .content,
+.archive .content,
+.category .archive {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.archive .content article,
+.blog .content article,
+.category .content article {
+	flex-grow: 1;
+	flex-shrink: 1;
+    margin: 2rem; 					/* GRID gutters */
+	width: 286px;					/* MAGIC number */
+}
+
+.content {
+	min-height: 65vh; /* minimum page height to keep footer at bottom */
+	overflow: auto;
+}
+
+.single .content {
+    margin-bottom: 3rem;
+	padding: 0 2rem;
+}
+
+.blog .content h4 {
+	margin-top: 0;
+}
+
+a .entry-image {
+	height: auto;
+	max-width: 100%;
+}
+
+.archive-description,
+.posts-page-description,
+.archive-pagination {
+	width: 100%;
+}
+
+
+.archive .entry-header,
+.archive .entry-content,
+.blog .entry-header,
+.blog .entry-content {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}

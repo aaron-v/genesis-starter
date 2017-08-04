@@ -1,0 +1,54 @@
+/*
+	Theme Name: Starter
+	Theme URI: http://leveragewp.com
+	Text Domain: starter
+	Description: A starter genesis child theme for custom theming
+	Author: Aaron Anderson
+	Author URI: http://leveragewp.com
+	Version: 1.0.1
+	Template: genesis
+	Template Version: 2.4.2
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Import CSS from Genesis parent theme
+ ****************************************/
+/*@import url('../genesis/style.css'); */
+/*@import url('css/genesis/00_normalize-411.css');*/
+
+@import url('css/frameworks/bass.css');
+
+@import url('css/genesis/01_box-sizing.css');
+@import url('css/genesis/02_float-clearing.css');
+@import url('css/genesis/03_a11y.css');
+@import url('css/genesis/04_search-form.css');
+@import url('css/genesis/05_body_site-container_wrap.css');
+@import url('css/genesis/10_site-header.css');
+@import url('css/genesis/20_nav.css');
+@import url('css/genesis/30_entry.css');
+@import url('css/genesis/40_pagination.css');
+@import url('css/genesis/45_author-box.css');
+@import url('css/genesis/50_after-entry.css');
+@import url('css/genesis/60_sidebars.css');
+@import url('css/genesis/70_footer-widgets.css');
+@import url('css/genesis/75_site-footer.css');
+@import url('css/genesis/80_single.css');
+@import url('css/genesis/85_blog-archive.css');
+@import url('css/genesis/90_sticky-message.css');
+
+@import url('css/wordpress.css');
+@import url('css/style-fonts.css');
+@import url('css/style-colors.css');
+@import url('css/components.css');
+
+@import url('css/template-blog.css');
+@import url('css/template-front-page.css');
+
+@import url('css/plugins.css');
+@import url('lib/whitespace/whitespace.css');
+
+/*@import url('css/z-temp.css');*/
+/*@import url('css/zz-debug.css');*/
+
+@import url('css/front-page.css'); 

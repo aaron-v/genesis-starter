@@ -1,0 +1,61 @@
+.pagination {
+	clear: both;
+	overflow: auto;
+}
+
+.pagination-previous,
+.pagination-next {
+	max-width: 47%;
+}
+
+.single .pagination-previous,
+.single .pagination-next {
+	display: inline-block;
+	padding: 1rem;
+}
+
+.pagination-next {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: none;
+}
+
+.pagination-previous {
+	border-left: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.single .pagination-previous a,
+.single .pagination-next a {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: capitalize;
+}
+
+.single .pagination-previous {
+	text-align: left;
+}
+.single .pagination-next {
+	text-align: right;
+}
+
+
+.archive-pagination ul {
+	margin-bottom: 2rem;
+}
+
+.archive-pagination li {
+	display: inline;
+	overflow: auto;
+}
+
+.archive-pagination li a:hover,
+.archive-pagination li a:focus,
+.archive-pagination .active a {
+	text-decoration: none;
+}
+
+.archive-pagination li a {
+	padding: 0.5rem 0.75rem;
+	line-height: 3;
+	margin: 0 0.5rem;
+	overflow: auto;
+}

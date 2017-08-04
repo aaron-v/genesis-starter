@@ -1,0 +1,47 @@
+.breadcrumb {
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+.page .entry-header,
+.page .lede {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.entry-footer {
+	overflow: auto;
+}
+
+.entry-footer .entry-meta {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.entry-tags a {
+	display: inline-block;
+	border-radius: 0.5rem;
+	font-size: 0.75rem;
+	margin: 0 0 1rem 0;
+	padding: 0.25rem 0.5rem;
+}
+
+.entry-categories {
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+}
+
+.entry-title a,
+.entry-categories a,
+.entry-header .entry-meta a {
+	text-decoration: none;
+}
+
+.entry-content h2:before {
+    margin: 1rem 0 0.5rem;
+}
+
+.entry-content li {
+	list-style-type: inherit;
+    margin-left: 2rem;
+}

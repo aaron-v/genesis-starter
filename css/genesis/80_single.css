@@ -1,0 +1,15 @@
+.page .entry-content,
+.single .entry-header,
+.single .entry-content,
+.single .author-box {
+	max-width: 700px;
+}
+
+.single .entry-content {
+	min-height: 30vh;
+}
+
+.page .entry-title,
+.single .entry-title {
+	margin-top: 0.5em;
+}

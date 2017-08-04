@@ -1,0 +1,133 @@
+a {
+	/*color: blue;*/
+}
+
+button,
+.footer-widgets,
+.site-footer,
+.single .content,
+.author-box,
+.archive-pagination li a {
+	background-color: white;
+}
+.after-entry,
+.entry-tags a,
+.nav-header .current_page_parent a,
+.archive-pagination li a:hover,
+.archive-pagination .active a {
+	color: white;
+}
+
+.entry-tags a:hover {
+	background-color: black;
+}
+.site-header a,
+.archive-pagination li a:focus,
+.footer-widgets a:hover {
+	color: black;
+}
+
+a, 
+button,
+.fa,
+.clr-accent,
+.current-menu-item a {
+	color: #ff0956; 					/* accent pink */
+}
+.after-entry,
+.archive-pagination .active a {
+	background-color: #ff0956;			/* accent pink */
+}
+.site-title {
+	border-color: #ddd;
+}
+
+.archive-pagination li a:hover,
+.archive-pagination .active a {
+	background-color: blue;				/* blue */
+}
+
+.nav-header .current_page_parent {
+	background-color: #d3d3d3;			/* light grey */
+}
+
+.archive .site-inner,
+.blog .site-inner,
+.page .site-inner,
+.search .site-inner,
+.archive-pagination {
+	background-color: #f4f4f0;			/* extra light grey */
+}
+
+@media all and (min-width: 800px) {
+	.single	.site-inner {
+		background-color: #f4f4f0;		/* extra light grey */
+	}
+}
+
+.breadcrumb,
+.entry-tags a {
+	background-color: #c0c0c0;
+}
+
+blockquote,
+.entry-content h2:before,
+.blog .entry-content:before {
+	border-color: #c0c0c0;
+}
+
+.footer-widgets,
+.footer-widgets a,
+.site-footer,
+.site-footer a,
+.site-footer a:hover,
+.archive .entry-content {
+	color: #aaa;
+}
+
+blockquote, 
+.entry-header .entry-meta,
+.entry-header .entry-meta a {
+	color: #808080;
+}
+
+.entry-categories a,
+.footer-widgets .widget-title {
+	color: #666;
+}
+.footer-widgets .widget-title {
+	display: none;
+}
+
+
+
+
+.entry-content h2:before,
+.blog .entry-content:before {
+	border-top: 1px solid;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 1rem 0 0.5rem;
+    width: 3rem;
+}
+
+.single .content article,
+.page .content article {
+	/*min-height: 65vh;*/
+	/*margin-bottom: 3rem;*/
+	padding: 2rem 1rem;
+}
+.page .content,
+.single .content {
+	margin-top: 2rem;
+}
+.has-leader .content {
+	margin-top: 0;
+}
+.blog .site-inner {
+	padding-top: 1rem;
+}
+.single article {
+	padding-top: 2rem;
+}

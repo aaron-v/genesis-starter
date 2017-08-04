@@ -1,0 +1,29 @@
+/* The Media Object / Nicole Sullivan
+ *
+ * .media
+ * 	 .media__img
+ *	 .media__body
+ *
+ */
+.media,
+.media__body {
+	overflow: hidden; 
+	_overflow: visible;
+	zoom: 1;
+}
+
+.media .media__img {
+	float: left;
+	margin-right: 0.25rem;
+}
+.media .media__img img{
+	display: block;
+}
+.media .media__img__right {
+	float: right;
+	margin-left: 0.25rem;
+}
+
+li.media {
+	list-style-type: none;
+}

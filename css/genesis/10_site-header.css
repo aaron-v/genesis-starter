@@ -1,0 +1,46 @@
+.site-header a {
+	text-decoration: none;
+}
+
+.site-header .wrap {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.title-area {
+	margin: 1em;
+	text-align: center;
+}
+
+.site-title {
+    border-bottom: 0.25rem solid;
+    display: inline-block;
+	line-height: 1;
+}
+
+.site-title a {
+	font-weight: bold;
+}
+
+.site-title a:hover {
+	text-decoration: none;
+}
+
+.site-description {
+	font-size: 0.8rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+@media all and (min-width: 584px) {
+	
+	.site-header .wrap {
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.site-header .nav-header {
+		background-color: transparent;
+	}
+}

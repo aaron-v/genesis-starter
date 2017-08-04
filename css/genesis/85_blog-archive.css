@@ -1,0 +1,32 @@
+.archive .entry-title,
+.blog .entry-title,
+.category .entry-title {
+	margin-top: 0;
+}
+
+.archive .entry-header h4,
+.blog .entry-header h4,
+.category .entry-header h4 {
+	margin-bottom: 0.5rem;
+	overflow: auto;
+}
+
+.archive .entry-content,
+.blog .entry-content,
+.category .entry-content, {
+	font-style: italic;
+}
+
+.search .content {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	justify-content: center;
+	padding: 2rem 1rem;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.search .archive-description {
+	width: inherit;
+}

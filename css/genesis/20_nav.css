@@ -1,0 +1,33 @@
+.nav-header {
+	background-color: #f6f6f6;
+	flex-grow: 1;
+}
+
+.genesis-nav-menu {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	margin: 1.5rem 0;
+}
+
+.genesis-nav-menu li {
+	letter-spacing: 0.1rem;
+	line-height: 2.2;
+	overflow: visible;
+}
+
+.genesis-nav-menu a {
+	margin: 1rem;
+	padding: 0.25rem 0;
+}
+
+.nav-header .current-menu-item a {
+	border-bottom: 0.25rem solid;
+}
+
+@media all and (min-width: 600px) {
+	.genesis-nav-menu {
+		align-items: center;
+		justify-content: flex-end;
+	}
+}

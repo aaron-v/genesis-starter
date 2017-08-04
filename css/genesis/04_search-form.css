@@ -1,0 +1,87 @@
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2.25em;
+    padding: .25em;
+    -webkit-appearance: none;
+    border: 1px solid;
+    width: 100%;
+}
+
+input[type=text],
+input[type=search],
+textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    /*padding: 3px 0px 3px 3px;*/
+    /*margin: 5px 1px 3px 0px;*/
+    border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus,
+textarea:focus,
+input[type=search]:focus; {
+  color: blue !important;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  /*padding: 3px 0px 3px 3px;*/
+  /*margin: 5px 1px 3px 0px;*/
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+/* search-form placeholder */
+.search-form input::-webkit-input-placeholder { color: #808080; }
+.search-form input:-moz-placeholder { color: #808080; }
+.search-form input::-moz-placeholder { color: #808080; opacity: 1; }
+.search-form input:-ms-input-placeholder { color: #808080; }
+.search-form input::placeholder { color: #808080; opacity: 1; }
+
+
+
+
+/* ## Search Form
+--------------------------------------------- */
+
+.search-form {
+	overflow: hidden;
+}
+
+.entry-content .search-form,
+.site-header .search-form {
+	/*margin-bottom: 40px;*/
+	/*width: 50%;*/
+}
+
+.site-header .search-form {
+	/*float: right;*/
+	/*margin: 12px auto 0;*/
+}
+
+.post-password-form input[type="submit"],
+.search-form input[type="submit"] {
+	/*margin-top: 10px;*/
+}
+
+.genesis-nav-menu .search input[type="submit"],
+.widget_search input[type="submit"] {
+	/*border: 0;*/
+	/*clip: rect(0, 0, 0, 0);*/
+	/*height: 1px;*/
+	/*margin: -1px;*/
+	/*padding: 0;*/
+	/*position: absolute;*/
+	/*width: 1px;*/
+}
