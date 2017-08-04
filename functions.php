@@ -16,3 +16,5 @@ include_once( 'lib/functions/autoload.php' );
 
 //* Start genesis
 include_once( get_template_directory() . '/lib/init.php' );
+
+// changed
